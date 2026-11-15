@@ -1,0 +1,19 @@
+{
+  "chalk": 1,
+  "paper": "dark",
+  "items": [
+    { "id": "start", "type": "ellipse", "x": 0, "y": 0, "w": 160, "h": 70, "text": "Sign up", "fill": "#403e8ef7", "stroke": "#3e8ef7" },
+    { "id": "verify", "type": "rect", "x": 0, "y": 150, "w": 160, "h": 80, "radius": 8, "text": "Verify email" },
+    { "id": "ok", "type": "diamond", "x": -10, "y": 310, "w": 180, "h": 120, "text": "Verified?" },
+    { "id": "home", "type": "rect", "x": 280, "y": 330, "w": 160, "h": 80, "radius": 8, "text": "Welcome\nscreen", "fill": "#4030a46c", "stroke": "#30a46c" },
+    { "id": "retry", "type": "rect", "x": -280, "y": 150, "w": 160, "h": 80, "radius": 8, "text": "Send again", "dash": "dashed" },
+    { "id": "a", "type": "line", "from": "start", "to": "verify", "arrowEnd": true },
+    { "id": "b", "type": "line", "from": "verify", "to": "ok", "arrowEnd": true },
+    { "id": "c", "type": "line", "from": "ok", "to": "home", "arrowEnd": true, "routing": "elbow", "text": "yes" },
+    { "id": "d", "type": "line", "from": "ok", "to": "retry", "fromSide": "left", "toSide": "bottom", "arrowEnd": true, "routing": "elbow", "text": "no" },
+    { "id": "e", "type": "line", "from": "retry", "to": "verify", "arrowEnd": true, "routing": "curved" },
+    { "id": "note", "type": "text", "x": 280, "y": 20, "w": 220, "h": 60, "text": "Rough onboarding flow.\nNothing here is final.", "italic": true, "textColor": "#8b8d98" },
+    { "id": "sq", "type": "path", "closed": false, "stroke": "#f5c400", "nodes": [ {"x": 280, "y": 110, "out": [30, -30]}, {"x": 360, "y": 110, "in": [-30, 30], "out": [30, -30]}, {"x": 440, "y": 110, "in": [-30, 30]} ] },
+    { "id": "tri", "type": "triangle", "x": 300, "y": 170, "w": 120, "h": 100, "text": "!", "fill": "#40f76b15", "stroke": "#f76b15" }
+  ]
+}

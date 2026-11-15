@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Application
+Name=Chalk
+GenericName=Whiteboard
+GenericName[da]=Whiteboard
+GenericName[de]=Whiteboard
+GenericName[es_MX]=Pizarrón
+GenericName[fr]=Tableau blanc
+Comment=Draw diagrams and rough layouts on an endless board
+Comment[da]=Tegn diagrammer og grove layouts på en endeløs tavle
+Comment[de]=Diagramme und grobe Layouts auf einer endlosen Tafel zeichnen
+Comment[es_MX]=Dibuja diagramas y bocetos en un pizarrón sin fin
+Comment[fr]=Dessinez des diagrammes et des maquettes sur un tableau sans fin
+Exec=chalk open %f
+Icon=chalk
+Terminal=false
+Categories=Graphics;2DGraphics;VectorGraphics;
+Keywords=diagram;whiteboard;flowchart;wireframe;draw;sketch;vector;
+MimeType=application/x-chalk;
+StartupWMClass=chalk
